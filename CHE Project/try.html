@@ -1,0 +1,17 @@
+<html>
+<body>
+
+<h2 id="old">New Button</h2>
+<input type="text" id="new">
+<button type="button" onclick="myFunction()">TRY ME</button>
+
+<script>
+    var one;
+    function myFunction(){
+        one = doonecument.getElementById("new").value;
+        console.log(one);
+        document.getElementById("old").innerHTML = one;
+    }
+</script>
+</body>
+</html>
